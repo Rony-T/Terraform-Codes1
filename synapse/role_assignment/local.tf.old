@@ -1,0 +1,3 @@
+locals {
+    principals = toset(var.principal_ids)
+}
